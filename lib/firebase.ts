@@ -1,3 +1,4 @@
+console.log("API KEY:", process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
